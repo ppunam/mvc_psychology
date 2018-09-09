@@ -48,7 +48,6 @@ static Connection connection=JdbcUtility.getConnection();
 				System.out.println("from r:"+a4);
 				r.setUlogo(rs.getString("u_logo"));
 				String a5=r.getUlogo();
-				System.out.println("from r:"+a5);
 				l.add(r);
 			}
 			
